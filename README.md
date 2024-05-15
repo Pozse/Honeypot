@@ -1,7 +1,3 @@
-Based on the documents and descriptions provided, here's a draft README file that covers your honeypot project using AWS and T-pot. You can use this README for the associated software repository. If you need similar READMEs for the future projects you mentioned (malware analysis, creating a SIEM, and a simple keylogger), feel free to let me know!
-
----
-
 # AWS + T-Pot Honeypot Deployment
 
 ## Introduction
