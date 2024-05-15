@@ -16,6 +16,7 @@ This project focuses on setting up a honeypot using AWS and T-Pot to detect unau
 - [Accessing the Dashboard](#accessing-the-dashboard)
 - [Troubleshooting](#troubleshooting)
 - [Contributors](#contributors)
+- [License](#license)
 
 ## Installation
 
@@ -30,7 +31,7 @@ This project focuses on setting up a honeypot using AWS and T-Pot to detect unau
 
 After setting up your Ubuntu instance on AWS:
 
-```bash
+
 sudo passwd ubuntu  # Set a root password
 sudo apt update && sudo apt upgrade -y  # Update and upgrade the system
 ssh-keygen  # Generate an SSH key
@@ -38,15 +39,15 @@ git clone https://github.com/dtag-dev-sec/t-pot-autoinstall.git
 cd t-pot-autoinstall/
 sudo su
 ./install.sh  # Follow the prompts during installation
-```
+
 
 ## Usage
 
 To manage your honeypot, use the following commands:
 
-```bash
+
 ssh -i "path/to/key.pem" ubuntu@your-instance-ip -p 64295
-```
+
 
 This command connects you to the T-Pot instance using a custom SSH port set during the installation.
 
@@ -73,8 +74,7 @@ Login with the username `ubuntu` and the password set during installation.
 ## Troubleshooting
 
 If you encounter issues connecting to your instance or accessing the web dashboard, ensure your IP is correctly listed in your AWS security group settings.
-If you continue having an issue, feel free to drop me an email at portpozse@gmail.com.
 
 ## Contributors
 
-Github.com/pozse
+- Pozse
