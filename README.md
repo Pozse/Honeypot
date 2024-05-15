@@ -67,7 +67,6 @@ Modify the security group settings as needed to enhance honeypot security:
 Access the web dashboard through:
 
 https://your-instance-ip:64297
-```
 
 Login with the username `ubuntu` and the password set during installation.
 
