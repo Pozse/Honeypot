@@ -33,11 +33,17 @@ After setting up your Ubuntu instance on AWS:
 
 
 sudo passwd ubuntu  # Set a root password
+
 sudo apt update && sudo apt upgrade -y  # Update and upgrade the system
+
 ssh-keygen  # Generate an SSH key
+
 git clone https://github.com/dtag-dev-sec/t-pot-autoinstall.git
+
 cd t-pot-autoinstall/
+
 sudo su
+
 ./install.sh  # Follow the prompts during installation
 
 
